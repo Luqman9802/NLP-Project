@@ -15,10 +15,8 @@ This project demonstrates how to perform semantic similarity and vector-based in
 ### Task 2: Vector Similarity Search using FAISS
 - Embedded text chunks were stored in a **FAISS** index (`IndexFlatL2`).
 - Queried the index using different **reformulations of the same question**.
-- Observed that semantically similar queries retrieved consistent matches, even if wording differed.
-- Example:
-  - Query: “Should I carry an umbrella tomorrow?”
-  - Match: “Tomorrow might rain.” (high relevance and low vector distance)
+- Observed that semantically similar queries retrieved consistent matches, even if the wording differed.
+
 
 ### Observations:
 - Queries with different phrasing but similar intent returned **similar top results**.
