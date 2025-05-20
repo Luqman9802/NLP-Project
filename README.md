@@ -46,8 +46,4 @@ This method is much more effective than keyword search for understanding intent 
 - FAISS used here is the CPU version (`faiss-cpu`), which works well for small to medium datasets.
 - t-SNE visualization works best with fewer than 50 items and reduced perplexity for small samples.
 
----
-
-## 📬 Contact
-For any questions or improvements, feel free to open an issue or submit a pull request.
 
